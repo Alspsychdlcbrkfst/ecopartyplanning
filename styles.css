@@ -1,0 +1,105 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #fffaf6;
+    padding: 1rem;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  header, main, footer {
+    margin-bottom: 2rem;
+  }
+  
+  /* Header styles */
+  header h1 {
+    font-size: 2.2rem;
+    margin-bottom: 0.5rem;
+    color: #2f5233;
+  }
+  
+  header p {
+    font-size: 1.1rem;
+    margin-bottom: 1rem;
+  }
+  
+  /* Section headings */
+  section h2 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+    color: #3a7255;
+    border-bottom: 2px solid #e2e8ce;
+    padding-bottom: 0.3rem;
+  }
+  
+  /* Paragraphs and lists */
+  p {
+    margin-bottom: 1rem;
+  }
+  
+  ul {
+    margin: 0 0 1.5rem 1.25rem;
+  }
+  
+  li {
+    margin-bottom: 0.5rem;
+  }
+  
+  /* Links */
+  a {
+    color: #3c7a5d;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Footer */
+  footer {
+    font-size: 0.9rem;
+    color: #777;
+    text-align: center;
+    border-top: 1px solid #ddd;
+    padding-top: 1rem;
+  }
+  
+  /* Bonus: Call-to-action link styling */
+  section a {
+    display: inline-block;
+    background-color: #aad576;
+    padding: 0.5rem 1rem;
+    color: #2f5233;
+    border-radius: 5px;
+    margin-top: 0.5rem;
+  }
+  
+  section a:hover {
+    background-color: #93c35c;
+    color: white;
+  }
+  
+  /* Responsive tweaks */
+  @media (max-width: 600px) {
+    body {
+      padding: 0.75rem;
+    }
+  
+    header h1 {
+      font-size: 1.75rem;
+    }
+  
+    section h2 {
+      font-size: 1.25rem;
+    }
+  }
+  
